@@ -46,14 +46,14 @@ def find_all_mcs(folder_path, output_folder):
                 for node, edges in mcs.items():
                     f.write(f"{node}: {','.join(edges)}\n")
 
-#folder_path = './directedGraph/HealthandFitness'
-#output_folder = './mcs_results/HealthandFitness'
+folder_path = './directedGraph/HealthandFitness'
+output_folder = './mcs_results/HealthandFitness'
 
 #folder_path = './directedGraph/ScienceandEducation'
 #output_folder = './mcs_results/ScienceandEducation'
 
-folder_path = './directedGraph/BusinessandFinance'
-output_folder = './mcs_results/BusinessandFinance'
+#folder_path = './directedGraph/BusinessandFinance'
+#output_folder = './mcs_results/BusinessandFinance'
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 

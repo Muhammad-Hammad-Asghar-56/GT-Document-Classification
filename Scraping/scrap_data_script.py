@@ -8,7 +8,7 @@ Wealth Management: https://www.anchorwm.com/
 fitness:
 nerd fitness:  https://www.nerdfitness.com/start-here/
 """
-fileName = "breakingmuscle.txt"
+fileName = "medicalnewstoday.txt"
 threads=[]
 global links
 links=[]
@@ -38,7 +38,7 @@ def scrap_data(url):
         
 
 
-url = 'https://breakingmuscle.com/'
+url = 'https://www.medicalnewstoday.com/articles/321518'
 scrap_data(url)
 for x in threads:
     x.join()
