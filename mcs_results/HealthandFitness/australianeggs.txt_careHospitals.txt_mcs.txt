@@ -1,0 +1,9 @@
+Health: Benefits
+Close: Menu
+weight: gain
+What: We
+Back: Health
+We: Do
+Please: enable
+Weight: Loss
+Skip: content

@@ -1,0 +1,6 @@
+weight: gain
+Staying: Fit
+Gain: Weight
+gain: weight.
+fat: protein
+Weight: Loss

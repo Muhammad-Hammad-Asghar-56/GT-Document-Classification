@@ -1,14 +1,10 @@
 import requests as req
 import threading
 from bs4 import BeautifulSoup
-"""
 
-Honda: 'https://honda.com.pk/'
-Wealth Management: https://www.anchorwm.com/
-fitness:
-nerd fitness:  https://www.nerdfitness.com/start-here/
-"""
-fileName = "medicalnewstoday.txt"
+
+
+fileName = "marcuslemonis.txt"
 threads=[]
 global links
 links=[]
@@ -38,7 +34,7 @@ def scrap_data(url):
         
 
 
-url = 'https://www.medicalnewstoday.com/articles/321518'
+url = 'https://marcuslemonis.com/business/starting-a-business'
 scrap_data(url)
 for x in threads:
     x.join()

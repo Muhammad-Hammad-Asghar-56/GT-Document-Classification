@@ -1,0 +1,5 @@
+How: To
+weight: gain
+Eggs: Eggs
+About: Us
+Weight: Loss

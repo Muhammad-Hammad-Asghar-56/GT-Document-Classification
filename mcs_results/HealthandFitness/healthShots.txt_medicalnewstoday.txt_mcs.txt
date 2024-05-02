@@ -1,0 +1,11 @@
+help: gain
+work: well
+weight: gain,loss
+way: gain
+Weight: Loss
+Whole: grain
+may: also
+gaining: weight
+gain: weight,weight,weight.
+Olive: oil
+grain: bread

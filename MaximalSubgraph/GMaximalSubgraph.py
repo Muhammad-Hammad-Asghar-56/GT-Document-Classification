@@ -1,4 +1,6 @@
 import os
+import networkx as nx
+import matplotlib.pyplot as plt
 
 def load_adjacency_list(file_path):
     adjacency_list = {}
@@ -32,6 +34,8 @@ def find_maximum_subgraph(adj_list1, adj_list2):
 
     return max_subgraph
 
+
+
 def find_all_mcs(folder_path, output_folder):
     files = os.listdir(folder_path)
     for i in range(len(files)):
@@ -44,7 +48,9 @@ def find_all_mcs(folder_path, output_folder):
             output_file = os.path.join(output_folder, f"{files[i]}_{files[j]}_mcs.txt")
             with open(output_file, 'w') as f:
                 for node, edges in mcs.items():
-                    f.write(f"{node}: {','.join(edges)}\n")
+                    if(edges):
+                        f.write(f"{node}: {','.join(edges)}\n")
+
 
 folder_path = './directedGraph/HealthandFitness'
 output_folder = './mcs_results/HealthandFitness'
